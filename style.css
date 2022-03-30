@@ -1,0 +1,57 @@
+html {
+    border-left: 5px solid lightgrey;
+}
+
+body {
+    min-height: 100vh;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header, main, footer {
+    padding: 2rem 1rem;
+}
+
+h1 {
+    color: tomato;
+}
+
+img {
+    width: 100%;
+}
+
+.nav-ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link-header {
+    color: lightgrey;
+}
+
+.nav-link-footer {
+    color: tomato;
+}
+
+.blog-title {
+    font-size: 3em;
+    color: black;
+    font-weight: normal;
+}
+
+.continue {
+    position: absolute;
+    right: 0;
+    color: tomato;
+}
+
+article{
+    position: relative;
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 2rem;
+}
+
